@@ -11,6 +11,7 @@ ADD . /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
+RUN python -m nltk.downloader punkt
 RUN python -m nltk.downloader stopwords
 RUN python -m nltk.downloader twitter_samples
 
