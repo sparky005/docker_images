@@ -1,0 +1,6 @@
+dill==0.2.6
+nltk==3.2.4
+pandas==0.19.2
+tweepy==3.5.0
+pytest==3.2.1
+vcrpy==1.11.1
